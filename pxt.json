@@ -1,0 +1,30 @@
+{
+    "name": "projet ingé",
+    "description": "",
+    "dependencies": {
+        "circuit-playground": "*",
+        "crickit": "github:adafruit/pxt-crickit#v0.0.32",
+        "umons-i2c-sensors": "github:philippefortemps/pxt-umons-i2c-sensors#7cc5a3681ec76bbabc67592d6b3cd00b907633d7"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.43",
+        "tag": "v1.4.43",
+        "commits": "https://github.com/microsoft/pxt-adafruit/commits/88bf910aac7ce867e3bbfdaa08344a3ed30a0422",
+        "target": "1.6.8",
+        "pxt": "5.20.6",
+        "targetId": "adafruit"
+    },
+    "supportedTargets": [
+        "adafruit"
+    ],
+    "preferredEditor": "blocksprj"
+}
